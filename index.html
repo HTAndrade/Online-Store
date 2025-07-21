@@ -8,9 +8,9 @@
   </head>
   <body>
     <!-- Menu Header -->
-    <header id="navegador">
-      <div class="nome-loja">ABCD Store</div>
-      <nav class="menu-loja">
+    <header>
+      <div class="nome-loja"><a href="#">ABCD Store</a></div>
+      <nav>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#produto">Produtos</a></li>
@@ -19,9 +19,8 @@
       </nav>
     </header>
     <!-- End - Menu Header -->
-
-    <!-- Tech Circle -->
     <main class="container">
+      <!-- Tech Circle -->
       <div class="tech-circle">
         <div class="circle"></div>
         <div class="circle"></div>
@@ -31,7 +30,6 @@
       <!-- End - Tech Circle -->
 
       <!-- Carrossel Itens -->
-
       <div class="list">
         <div class="item active">
           <div class="product-img">
@@ -83,7 +81,7 @@
         </div>
 
         <div class="arrows">
-          <button>
+          <button class="arrow-btn" id="prev">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -98,7 +96,7 @@
             </svg>
           </button>
 
-          <button>
+          <button class="arrow-btn" id="next">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -114,7 +112,14 @@
           </button>
         </div>
 
-        <div class="indicators"></div>
+        <div class="indicators">
+          <div class="numbers">01</div>
+          <div class="dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
       </div>
       <!-- End - Carrossel Itens -->
     </main>
